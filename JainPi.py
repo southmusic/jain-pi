@@ -1,0 +1,10 @@
+import math
+prephiA = float(math.sqrt(5))
+prephiB = float(1+prephiA)
+phi = float(prephiB/2)
+print('Output: \nPhi (\u03D5) =')
+print(phi)
+preJainPiA = float(math.sqrt(phi))
+jainPi = 4/(float(preJainPiA))
+print('J\u03C0 =')
+print(jainPi)
